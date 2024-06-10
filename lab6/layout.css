@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0x;
+   
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+.container > header{
+    height: 0px;
+    background-image: url("download.jpg");
+    background-size: 100% 100%;
+    background-color: blue;
+    padding-bottom: 25%;
+}
+.container > nav{
+    line-height: 40px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    font-variant: small-caps;
+}
+.container > aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container > article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container > footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container > nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+  
+}
+.container > nav > a:hover{
+    color: yellow;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.container-fluid{
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.video{
+    display: flex;
+    width: auto;
+    background-color: black;
+    padding: 10px;
+}
